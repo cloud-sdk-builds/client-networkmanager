@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-networkmanager`](https://www.npmjs.com/package/@aws-sdk/client-networkmanager/v/3.521.0).
+[`@aws-sdk/client-networkmanager`](https://www.npmjs.com/package/@aws-sdk/client-networkmanager/v/3.523.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.521.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.523.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-vw80nnqjRh3T9s0XYWxUvRLrXL2t3mZ5hwF3xZ7nxWmvPlC8YdT8A3JNid2ums3Q
+sha384-nW4pV+RZ7hkKK3uOfWMCV8un+21N4Iw5iJdT5LpwdUbIifvF2+H2jTTq7eS1ajtt
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-networkmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.521.0/index.min.mjs"
+            "@aws-sdk/client-networkmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.523.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.521.0/index.min.mjs": "sha384-vw80nnqjRh3T9s0XYWxUvRLrXL2t3mZ5hwF3xZ7nxWmvPlC8YdT8A3JNid2ums3Q"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.523.0/index.min.mjs": "sha384-nW4pV+RZ7hkKK3uOfWMCV8un+21N4Iw5iJdT5LpwdUbIifvF2+H2jTTq7eS1ajtt"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-networkmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.521.0/index.min.mjs"
+                        "@aws-sdk/client-networkmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.523.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.521.0/index.min.mjs": "sha384-vw80nnqjRh3T9s0XYWxUvRLrXL2t3mZ5hwF3xZ7nxWmvPlC8YdT8A3JNid2ums3Q"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-networkmanager@3.523.0/index.min.mjs": "sha384-nW4pV+RZ7hkKK3uOfWMCV8un+21N4Iw5iJdT5LpwdUbIifvF2+H2jTTq7eS1ajtt"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.521.0`)
+* Always pin to a specific version (`@3.523.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-networkmanager/blob/refs/tags/3.521.0/LICENSE
+https://github.com/cloud-sdk-builds/client-networkmanager/blob/refs/tags/3.523.0/LICENSE
 ```
 
 ---
